@@ -60,9 +60,12 @@ table{
 	height: 100%;
     width: 60%;
     margin: 0 auto 0 auto;
+
 }
 
-
+table td{
+	
+}
 
 table a{
 	font-family: themix;
@@ -72,6 +75,7 @@ table a{
 	color: black;
 	font-size: 25px;
 	margin: 0;
+
 }
 
 

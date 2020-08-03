@@ -115,8 +115,7 @@ main{
 	margin: 0 auto 0 auto;
 }
 #footer_table{
-	height: 100%;
 	width: 60%;
 	border-top: solid 1px;
-	margin: 12em auto 1em auto;
+	margin: 6vh auto 1vh auto;
 }

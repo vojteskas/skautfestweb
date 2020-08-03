@@ -47,12 +47,12 @@ body{
 }
 
 header{
-	background-image: url("SKAUT_logo_podklad_bily.svg");
-	background-repeat: no-repeat;
-	background-size: 13%;
-	background-position: 3% 20%;
+	background-image: url("header_background.JPG");
+	background-position: center center;
+	background-size: cover;
 	background-color:#669438;
 	text-align: center;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 table{
@@ -82,6 +82,7 @@ table a{
 	padding-top: 40px;
 	padding-bottom: 30px;
 	margin: 0;
+	text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
 }
 
 #titulek{

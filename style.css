@@ -60,11 +60,6 @@ table{
 	height: 100%;
     width: 60%;
     margin: 0 auto 0 auto;
-
-}
-
-table td{
-	
 }
 
 table a{
@@ -77,8 +72,19 @@ table a{
 	margin: 0;
 
 }
+/*
+#menu_table td:nth-child(even){
+	width: 5%;
+}
 
+#menu_table td:nth-child(odd){
+	width: 21.25%;
+}
+*/
 
+#menu_table td{
+	width: 14.28%;
+}
 
 #main_header{
 	font-family: skautbold;

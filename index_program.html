@@ -5,7 +5,35 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="logo.jpg">
-
+		<style>
+			#harmonogram_table{
+				height: auto;
+				width: auto;
+				margin: 0px;
+				padding: 0px;
+			}
+			#harmonogram_table td{
+				padding: 5px;
+			}
+			#harmonogram_table td:nth-child(1){
+				text-align: center;
+				padding-right: 1vw;
+			}
+			#program_table{
+				width: 100%;
+				border: 7px double black;
+				border-collapse: collapse;
+			}
+			#program_table td{
+				width: 50%;
+				vertical-align: top;
+				border: 1px solid black;
+				padding: 0px 1vw 0px 1vw;
+			}
+			#program_table td:nth-child(odd){
+				padding-right: 2vw;
+			}
+		</style>
     </head>
     <body>
 		<header>
@@ -26,10 +54,84 @@
     		</table>
     	</header>
     	<main>
-    		<h2 id="titulek">Program</h2>
-    		<p>
-    			Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In enim a arcu imperdiet malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Aenean id metus id velit ullamcorper pulvinar. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque tincidunt scelerisque libero. Praesent in mauris eu tortor porttitor accumsan. Nam quis nulla. Integer in sapien. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Nullam rhoncus aliquam metus. Etiam neque. Aenean fermentum risus id tortor. Duis viverra diam non justo. Donec vitae arcu.
-    		</p>
+			<h2 id="titulek">Program</h2>
+				<!-- Sem přijde vložit odkaz na vygenerované pdfko s programem, až ho budem mít-->
+				<h3>Harmonogram akce</h3>
+					<table id="harmonogram_table">
+						<tr><td>od 8:30</td><td><b>Registrace</b></td></tr>
+						<tr><td>9:30</td><td><b>Zahájení na farní zahradě</b></td></tr>
+						<tr><td>10:00 - 18:00</td><td><b>Program</b>* - program jednotlivých linek (<i>Kultura & umění, Zájmy, Skauting, Pohyb</i>) a doprovodný program</td></tr>
+						<tr><td>18:00 - 20:00</td><td><b>Tančírna</b> společenských tanců</td></tr>
+						<tr><td>20:00 - 22:00</td><td><b>Zábava</b></td></tr>
+					</table>
+					<p style="font-style: italic; font-size: smaller;">* Přesný rozpis programu brzy zveřejníme</p>
+				<h3>Programové linky</h3>
+				<p>Kompletní podrobný seznam brzy doplníme.</p>
+				<p>Velice si ceníme spolupráce s <b>SDH Domašov</b>. Díky tomu kromě programových linek probíhá zároveň i <b>Hasičský den</b>,
+					jehož součástí je <i>dětské odpoledne</i>, <i>vystavení hasičské techniky</i> a <i>hasičský zásah</i>.</p>
+				<table id="program_table">
+					<tr>
+						<td>
+							<h3>Kultura & umění</h3>
+								<p>Můžete se těšit na:</p>
+									<ul>
+										<li><b>Poledance</b> - představení a workshop</li>
+										<li>Workshop <b>Freestyle & HipHop dance</b></li>
+										<li><b>Koncert klasické hudby</b></li>
+										<li>Muzikál <b>Nestříhat</b></li>
+										<li>Vystoupení ve stylu orient fusion skupiny <b>Nyx</b></li>
+									</ul>
+						</td>
+						<td>
+							<h3>Zájmy</h3>
+								<p>Přijďte vyzkoušet a dozvědět se víc o:</p>
+								<ul>
+									<li><b>Stravování a jídelníčku</b></li>
+									<li>Umění <b>Make-up</b>u</li>
+									<li><b>Pečení placek</b></li>
+									<li><b>Cestování</b> - Norsko</li>
+									<li><b>Mastičkách a elixírech</b> v dnešní době</li>
+									<li><b>Entomofagii</b> (využívání hmyzu jako potraviny)</li>
+									<li><b>Včelařství</b></li>
+								</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h3>Skauting</h3>
+							<p>Přednášky, diskuze, besedy a další na témata:</p>
+							<ul>
+								<li><b>Co to znamená být skautem</b></li>
+								<li><b>Třicet let skautingu v Domašově</b> s jeho zakladateli Ivanou a Miroslavem Staňkovými</li>
+								<li><b>Albánská výzva</b></li>
+								<li>Promítání filmu <b>Jednou skautem navždy skautem</b> s následnou diskuzí</li>
+							</ul>
+						</td>
+						<td>
+							<h3>Pohyb</h3>
+							<p>Pokud už budete mít dost sezení, chcete protáhnout své tělo, vyzkoušet něco neobvyklého a nebo se prostě hýbat, můžete přijít na:</p>
+							<ul>
+								<li><b>Akrojógu</b></li>
+								<li><b>Floorbal</b></li>
+								<li><b>Šplh po laně a tyči</b></li>
+								<li><b>Kolektivní hru</b></li>
+								<li><b>Gymnastiku</b></li>
+								<li><b>Tančírnu</b>, kde se můžete naučit či si zopakovat kroky standartních či <span style="white-space: nowrap;">latinsko-amerických tanců</span></li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+				<h3>Doprovodný program</h3>
+				<p>Zároveň s programovými linkami probíhá i doprovodný program, kde se můžete těšit nejen na:</p>
+				<ul>
+					<li>Modelování z marcipánu</li>
+					<li>Malování na obličej</li>
+					<li>Dětské odpoledne</li>
+					<li>Výstava</li>
+					<li>Slackline</li>
+					<li>Vyrábění</li>
+					<li>Taneční podložky - účast přislíbil i mistr republiky!</li>
+				</ul>
     	</main>
     	<footer>
 			<table id="footer_table">
